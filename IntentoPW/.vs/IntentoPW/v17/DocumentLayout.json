@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\camil\\source\\repos\\IntentoPW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\home\\quienessomos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\home\\quienessomos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\home\\servicioss.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\home\\servicioss.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\home\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\home\\contacto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\home\\bolsaempleo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\home\\bolsaempleo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\home\\gestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\home\\gestion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|c:\\users\\camil\\source\\repos\\intentopw\\intentopw\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F176B7F8-DCCE-4EE9-AE57-8813AA85759A}|IntentoPW\\IntentoPW.csproj|solutionrelative:intentopw\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuienesSomos.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\QuienesSomos.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Home\\QuienesSomos.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\QuienesSomos.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Home\\QuienesSomos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T16:39:06.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T16:08:39.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "IntentoPW\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "IntentoPW\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-01T16:03:01.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T15:56:33.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAEYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T15:47:18.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IntentoPW\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IntentoPW\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:46:34.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T15:48:34.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Servicioss.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\Servicioss.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Home\\Servicioss.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\Servicioss.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Home\\Servicioss.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T16:40:08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "contacto.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\contacto.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Home\\contacto.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\contacto.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Home\\contacto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T16:41:12.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Gestion.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\Gestion.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Home\\Gestion.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\Gestion.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Home\\Gestion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T16:40:40.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BolsaEmpleo.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\BolsaEmpleo.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Home\\BolsaEmpleo.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Home\\BolsaEmpleo.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Home\\BolsaEmpleo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T16:40:58.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T15:55:39.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "IntentoPW\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "IntentoPW\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T15:55:38.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "IntentoPW\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\camil\\source\\repos\\IntentoPW\\IntentoPW\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "IntentoPW\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAGUAAAAAAAAAAIBJwH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-01T15:46:29.841Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

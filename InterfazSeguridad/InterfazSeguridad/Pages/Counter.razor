@@ -1,0 +1,77 @@
+﻿@page "/add-company"
+@using System.Collections.Generic
+
+<h3>Agregar Compañías</h3>
+
+<div class="company-form">
+    <label for="orgName">Nombre de la Organización:</label>
+    <input type="text" id="orgName" @bind="NewCompany.OrganizationName" class="form-control" />
+
+    <label for="personName">Nombre de la Persona:</label>
+    <input type="text" id="personName" @bind="NewCompany.PersonName" class="form-control" />
+
+    <label for="username">Usuario:</label>
+    <input type="text" id="username" @bind="NewCompany.Username" class="form-control" />
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" @bind="NewCompany.Password" class="form-control" />
+
+    <div class="button-container">
+        <button class="btn btn-primary" @onclick="AddCompany">Agregar Compañía</button>
+    </div>
+</div>
+
+<div class="company-list">
+    <h4>Lista de Compañías</h4>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Nombre de la Organización</th>
+                <th>Nombre de la Persona</th>
+                <th>Usuario</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var company in Companies)
+            {
+                <tr>
+                    <td>@company.OrganizationName</td>
+                    <td>@company.PersonName</td>
+                    <td>@company.Username</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private List<Company> Companies = new List<Company>();
+    private Company NewCompany = new Company();
+
+    private void AddCompany()
+    {
+        if (!string.IsNullOrWhiteSpace(NewCompany.OrganizationName) &&
+            !string.IsNullOrWhiteSpace(NewCompany.PersonName) &&
+            !string.IsNullOrWhiteSpace(NewCompany.Username) &&
+            !string.IsNullOrWhiteSpace(NewCompany.Password))
+        {
+            Companies.Add(new Company
+                {
+                    OrganizationName = NewCompany.OrganizationName,
+                    PersonName = NewCompany.PersonName,
+                    Username = NewCompany.Username,
+                    Password = NewCompany.Password // En una aplicación real, no almacenarías la contraseña en texto plano.
+                });
+
+            NewCompany = new Company(); // Limpia el formulario
+        }
+    }
+
+    private class Company
+    {
+        public string OrganizationName { get; set; }
+        public string PersonName { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}

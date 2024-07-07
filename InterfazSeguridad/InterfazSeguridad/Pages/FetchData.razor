@@ -1,0 +1,77 @@
+﻿@page "/add-evaluator"
+@using System.Collections.Generic
+
+<h3>Agregar Evaluadores</h3>
+
+<div class="evaluator-form">
+    <label for="firstName">Nombre:</label>
+    <input type="text" id="firstName" @bind="NewEvaluator.FirstName" class="form-control" />
+
+    <label for="lastName">Apellido:</label>
+    <input type="text" id="lastName" @bind="NewEvaluator.LastName" class="form-control" />
+
+    <label for="username">Usuario:</label>
+    <input type="text" id="username" @bind="NewEvaluator.Username" class="form-control" />
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" @bind="NewEvaluator.Password" class="form-control" />
+
+    <div class="button-container">
+        <button class="btn btn-primary" @onclick="AddEvaluator">Agregar Evaluador</button>
+    </div>
+</div>
+
+<div class="evaluator-list">
+    <h3>Lista de Evaluadores</h3>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Usuario</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var evaluator in Evaluators)
+            {
+                <tr>
+                    <td>@evaluator.FirstName</td>
+                    <td>@evaluator.LastName</td>
+                    <td>@evaluator.Username</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private List<Evaluator> Evaluators = new List<Evaluator>();
+    private Evaluator NewEvaluator = new Evaluator();
+
+    private void AddEvaluator()
+    {
+        if (!string.IsNullOrWhiteSpace(NewEvaluator.FirstName) &&
+            !string.IsNullOrWhiteSpace(NewEvaluator.LastName) &&
+            !string.IsNullOrWhiteSpace(NewEvaluator.Username) &&
+            !string.IsNullOrWhiteSpace(NewEvaluator.Password))
+        {
+            Evaluators.Add(new Evaluator
+                {
+                    FirstName = NewEvaluator.FirstName,
+                    LastName = NewEvaluator.LastName,
+                    Username = NewEvaluator.Username,
+                    Password = NewEvaluator.Password // En una aplicación real, no almacenarías la contraseña en texto plano.
+                });
+
+            NewEvaluator = new Evaluator(); // Limpia el formulario
+        }
+    }
+
+    private class Evaluator
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}

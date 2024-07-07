@@ -1,0 +1,169 @@
+﻿@page "/asset-table"
+@using System.Collections.Generic
+
+<div class="container">
+    <div class="left-panel">
+        <h3>Activos</h3>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Activos</th>
+                    <th>Estado</th>
+                    <th>Seleccionar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var asset in Assets)
+                {
+                    <tr>
+                        <td>@asset.Code</td>
+                        <td>@asset.Name</td>
+                        <td>@asset.Status</td>
+                        <td>
+                            <button class="btn btn-primary" @onclick="() => SelectAsset(asset)">Seleccionar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="right-panel">
+        @if (SelectedAsset != null)
+        {
+            <h3>Calificar Activo</h3>
+            <p>@SelectedAsset.Name</p>
+            <p>@SelectedAsset.Description</p>
+
+            <label for="criteria">Criterio:</label>
+            <select id="criteria" @onchange="OnCriteriaChange">
+                <option value="">Seleccione</option>
+                <option value="Disponibilidad">Disponibilidad</option>
+                <option value="Integridad">Integridad</option>
+                <option value="Confidencialidad">Confidencialidad</option>
+                <option value="Autenticidad">Autenticidad</option>
+            </select>
+
+            @if (!string.IsNullOrEmpty(SelectedCriteria))
+            {
+                <div>
+                    <h4>@SelectedCriteria</h4>
+                    @foreach (var subCriteria in SubCriteria)
+                    {
+                        <div class="slider-container">
+                            <label>@subCriteria:</label>
+                            <input type="range" min="0" max="5" value="0" class="slider" @oninput="(e) => UpdateSliderValue(subCriteria, e.Value)" />
+                            <span>@GetSliderDescription(subCriteria)</span>
+                        </div>
+                    }
+                </div>
+            }
+
+            <button class="btn btn-success" @onclick="SaveRating">Guardar</button>
+        }
+    </div>
+</div>
+
+@code {
+    private List<Asset> Assets = new List<Asset>
+    {
+        new Asset { Code = "A001", Name = "Activo 1", Status = 1, Description = "Descripción del Activo 1" },
+        new Asset { Code = "A002", Name = "Activo 2", Status = 2, Description = "Descripción del Activo 2" }
+    };
+
+    private Asset SelectedAsset;
+    private string SelectedCriteria;
+    private Dictionary<string, int> SliderValues = new Dictionary<string, int>();
+    private List<string> SubCriteria = new List<string>();
+
+    private void SelectAsset(Asset asset)
+    {
+        SelectedAsset = asset;
+        SelectedCriteria = null;
+        SubCriteria.Clear();
+        SliderValues.Clear();
+    }
+
+    private void OnCriteriaChange(ChangeEventArgs e)
+    {
+        SelectedCriteria = e.Value.ToString();
+        SubCriteria = new List<string> { "LeyPE", "SI", "ADM", "Conf" };
+        foreach (var subCriteria in SubCriteria)
+        {
+            SliderValues[subCriteria] = 0;
+        }
+    }
+
+    private void UpdateSliderValue(string subCriteria, object value)
+    {
+        if (int.TryParse(value.ToString(), out int intValue))
+        {
+            SliderValues[subCriteria] = intValue;
+        }
+    }
+
+    private string GetSliderDescription(string subCriteria)
+    {
+        int value = SliderValues.ContainsKey(subCriteria) ? SliderValues[subCriteria] : 0;
+
+        var descriptions = new Dictionary<string, List<string>>
+        {
+            { "LeyPE", new List<string>
+                {
+                    "Puntaje 1: Pudiera causar molestias a un individuo y pudiera quebrantar de forma leve",
+                    "Puntaje 2: Pudiera causar molestias a un individuo y pudiera quebrantar de forma leve leyes o regulaciones.",
+                    "Puntaje 3: Probablemente afecte a un individuo y probablemente suponga el incumplimiento de una ley o regulación.",
+                    "Puntaje 4: Probablemente afecte a un grupo de individuos y probablemente quebrante leyes o regulaciones.",
+                    "Puntaje 5: Probablemente afecte gravemente a un individuo o grupo de individuos y probablemente quebrante gravemente leyes o regulaciones."
+                }
+            },
+            { "SI", new List<string>
+                {
+                    "Puntaje 1: No tendría un impacto significativo en la seguridad o en la investigación de incidentes.",
+                    "Puntaje 2: Pudiera causar una merma en la seguridad o dificultar la investigación de un incidente, pero a un nivel menor.",
+                    "Puntaje 3: Pudiera causar una merma en la seguridad o dificultar la investigación de un incidente.",
+                    "Puntaje 4: Probablemente sea causa de una merma en la seguridad o dificulte la investigación de un incidente.",
+                    "Puntaje 5: Probablemente sea causa de un grave incidente de seguridad o dificulte la investigación de incidentes graves."
+                }
+            },
+            { "ADM", new List<string>
+                {
+                    "Puntaje 1: Pudiera impedir la operación efectiva de una parte de la organización, pero a un nivel menor.",
+                    "Puntaje 2: Pudiera impedir la operación efectiva de una parte de la organización.",
+                    "Puntaje 3: Probablemente impediría la operación efectiva de una parte de la organización.",
+                    "Puntaje 4: Probablemente impediría la operación efectiva de más de una parte de la organización.",
+                    "Puntaje 5: Probablemente impediría la operación efectiva de la organización."
+                }
+            },
+            { "Conf", new List<string>
+                {
+                    "Puntaje 1: Pudiera causar una pérdida menor de la confianza dentro de la organización.",
+                    "Puntaje 2: Probablemente cause una pérdida menor de la confianza dentro de la organización.",
+                    "Puntaje 3: Probablemente afecte negativamente a las relaciones internas de la organización.",
+                    "Puntaje 4: Probablemente causaría una publicidad negativa significativa y afectaría gravemente las relaciones con otras organizaciones o el público en general.",
+                    "Puntaje 5: Probablemente causaría una publicidad negativa generalizada y afectaría gravemente las relaciones con otras organizaciones o el público en general."
+                }
+            }
+        };
+
+        if (descriptions.ContainsKey(subCriteria) && value > 0 && value <= 5)
+        {
+            return descriptions[subCriteria][value - 1];
+        }
+        return string.Empty;
+    }
+
+    private void SaveRating()
+    {
+        // Lógica para guardar la evaluación
+    }
+
+    private class Asset
+    {
+        public string Code { get; set; }
+        public string Name { get; set; }
+        public int Status { get; set; }
+        public string Description { get; set; }
+    }
+}
+

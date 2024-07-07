@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .logo img {
+        height: 40px;
+    }
+
+    .header .menu nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+        .header .menu nav ul li {
+            display: inline;
+            cursor: pointer;
+        }
+
+.main-content {
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+    .hero-text h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+.buttons .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons .btn-secondary {
+    background-color: #6c757d;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.side-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #002D62;
+    color: white;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+}
+
+.side-menu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    .side-menu-content a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        align-self: flex-end;
+    }
+
+    .side-menu-content ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .side-menu-content ul li {
+            margin: 20px 0;
+            cursor: pointer;
+            font-size: 24px;
+        }

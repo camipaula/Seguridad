@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Techint</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <style>
+        .imagenn {
+            background-image: url('/image/imagenn.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px; /* Ajusta la altura según necesites */
+            position: relative;
+            color: white; /* Asegura que el texto sea blanco */
+        }
+
+        .imagenn-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+            padding: 20px;
+        }
+
+        .buttons .btn {
+            margin: 10px;
+        }
+
+        .side-menu {
+            display: none; /* Oculto por defecto */
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 250px;
+            height: 100%;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 60px;
+            z-index: 1;
+        }
+
+            .side-menu a {
+                padding: 10px 15px;
+                text-decoration: none;
+                font-size: 18px;
+                color: #818181;
+                display: block;
+            }
+
+                .side-menu a:hover {
+                    color: #f1f1f1;
+                }
+
+            .side-menu .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="~/image/logocpp.jpeg" alt="Techint Logo" />
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">ES</a></li>
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">Buscar</a></li>
+                        <li><a href="#" id="menuToggle">Menú</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="sideMenu" class="side-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/Home/QuienesSomos">Quiénes Somos</a></li>
+            <li><a href="/Home/Servicioss">Servicios</a></li>
+            <li><a href="/Home/Gestion">Gestión</a></li>
+            <li><a href="/Home/BolsaEmpleo">Bolsa de Empleo</a></li>
+            <li><a href="/Home/contacto">Contacto</a></li>
+        </ul>
+    </div>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Techint Ingeniería y Construcción</p>
+        </div>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("sideMenu").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("sideMenu").style.display = "none";
+        }
+
+        document.getElementById("menuToggle").addEventListener("click", openNav);
+        document.getElementById("closeMenu").addEventListener("click", closeNav);
+    </script>
+</body>
+</html>
