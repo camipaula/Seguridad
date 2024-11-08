@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|solutionrelative:interfazseguridad\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|c:\\users\\camil\\source\\repos\\interfazseguridad\\interfazseguridad\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|solutionrelative:interfazseguridad\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|c:\\users\\camil\\source\\repos\\interfazseguridad\\interfazseguridad\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|solutionrelative:interfazseguridad\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|c:\\users\\camil\\source\\repos\\interfazseguridad\\interfazseguridad\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|solutionrelative:interfazseguridad\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|c:\\users\\camil\\source\\repos\\interfazseguridad\\interfazseguridad\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|solutionrelative:interfazseguridad\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|c:\\users\\camil\\source\\repos\\interfazseguridad\\interfazseguridad\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|solutionrelative:interfazseguridad\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C46EC9C-11B7-41B4-80FB-B119FA5D061C}|InterfazSeguridad\\InterfazSeguridad.csproj|c:\\users\\camil\\source\\repos\\interfazseguridad\\interfazseguridad\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,16 +66,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\InterfazSeguridad\\InterfazSeguridad\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "InterfazSeguridad\\Pages\\Index.razor",
               "ToolTip": "C:\\Users\\camil\\source\\repos\\InterfazSeguridad\\InterfazSeguridad\\Pages\\Index.razor",
               "RelativeToolTip": "InterfazSeguridad\\Pages\\Index.razor",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAwwKkAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T18:26:06.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T18:26:06.559Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "InterfazSeguridad\\Pages\\FetchData.razor",
               "ViewState": "AQIAACgAAAAAAAAAAAAwwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T18:26:55.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T18:26:55.954Z"
             },
             {
               "$type": "Document",
@@ -98,7 +96,7 @@
               "RelativeDocumentMoniker": "InterfazSeguridad\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\camil\\source\\repos\\InterfazSeguridad\\InterfazSeguridad\\wwwroot\\css\\site.css",
               "RelativeToolTip": "InterfazSeguridad\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAIEAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAIEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-06T20:03:06.534Z",
               "EditorCaption": ""
@@ -125,8 +123,7 @@
               "RelativeToolTip": "InterfazSeguridad\\Pages\\_Layout.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T18:28:30.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T18:28:30.794Z"
             },
             {
               "$type": "Document",
@@ -138,12 +135,11 @@
               "RelativeToolTip": "InterfazSeguridad\\Shared\\SurveyPrompt.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T21:58:09.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:58:09.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\camil\\source\\repos\\InterfazSeguridad\\InterfazSeguridad\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "InterfazSeguridad\\Pages\\Counter.razor",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "InterfazSeguridad\\Pages\\Counter.razor",
               "ViewState": "AQIAACgAAAAAAAAAAAAwwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T18:27:53.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T18:27:53.739Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "InterfazSeguridad\\Shared\\NavMenu.razor",
               "ViewState": "AQIAAAkAAAAAAAAAAAAkwBEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T20:04:24.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T20:04:24.924Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "InterfazSeguridad\\Pages\\_Host.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T18:25:52.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T18:25:52.929Z"
             },
             {
               "$type": "Document",
@@ -190,8 +183,7 @@
               "RelativeToolTip": "InterfazSeguridad\\Shared\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T20:03:47.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T20:03:47.16Z"
             },
             {
               "$type": "Document",
@@ -203,8 +195,7 @@
               "RelativeToolTip": "InterfazSeguridad\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T21:57:44.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:57:44.472Z"
             },
             {
               "$type": "Document",
@@ -216,8 +207,7 @@
               "RelativeToolTip": "InterfazSeguridad\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T21:58:48.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T21:58:48.803Z"
             },
             {
               "$type": "Document",
@@ -229,8 +219,7 @@
               "RelativeToolTip": "InterfazSeguridad\\Pages\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-06T18:39:52.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T18:39:52.444Z"
             }
           ]
         },
